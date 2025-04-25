@@ -15,6 +15,22 @@
   <li><strong>You must follow YouTube's Terms of Service</strong> when using this bot.</li>
   <li>The author (<code>riotcoke</code>) is <strong>not responsible</strong> for any misuse, violations, or consequences resulting from the use of this code.</li>
 </ul>
+<h3>Dependencies</h3>
+<ul>
+  <li>Node.js (v14+ recommended)</li>
+  <li>puppeteer-extra</li>
+  <li>puppeteer-extra-plugin-stealth</li>
+  <li>fs (built-in)</li>
+</ul>
+
+<h3>Configuration</h3>
+<p>Edit the following variables in <code>index.js</code>:</p>
+<ul>
+  <li><code>const email = 'your-email';</code></li>
+  <li><code>const password = 'your-password';</code></li>
+  <li><code>const videoUrl = 'https://youtube.com/...';</code></li>
+</ul>
+<p>Also make sure you have a <code>comments.txt</code> file with one comment per line.</p>
 
 <h2>Roadmap</h2>
 <ul>
