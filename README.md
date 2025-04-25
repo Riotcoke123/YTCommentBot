@@ -1,8 +1,7 @@
 
-
 <h1>YT Comment Bot</h1>
 
-<p><strong>YTCommentBot</strong> is an automated YouTube comment poster built with Puppeteer and the Stealth plugin. It navigates to a video, logs in with your Google account, and posts a random comment from a file.</p>
+<p><strong>YT Comment Bot</strong> is an automated YouTube commenting tool powered by <code>puppeteer-extra</code> and the <code>stealth</code> plugin. It simulates real user interaction to log in, navigate to a video, and post a randomly selected comment from a provided list.</p>
 
 <hr>
 
@@ -11,48 +10,49 @@
 
 <h2>Disclaimer</h2>
 <ul>
-  <li>This tool is provided for educational and automation testing purposes only.</li>
-  <li><strong>You must follow YouTube's Terms of Service</strong> when using this bot.</li>
-  <li>The author (<code>riotcoke</code>) is <strong>not responsible</strong> for any misuse, violations, or consequences resulting from the use of this code.</li>
-</ul>
-<h3>Dependencies</h3>
-<ul>
-  <li>Node.js (v14+ recommended)</li>
-  <li>puppeteer-extra</li>
-  <li>puppeteer-extra-plugin-stealth</li>
-  <li>fs (built-in)</li>
+  <li>This tool is provided strictly for educational, testing, or personal automation purposes.</li>
+  <li>By using this bot, you agree to comply with <a href="https://www.youtube.com/t/terms" target="_blank">YouTube's Terms of Service</a>.</li>
+  <li>The author (<code>riotcoke</code>) assumes no responsibility for misuse or any resulting violations.</li>
 </ul>
 
-<h3>Configuration</h3>
-<p>Edit the following variables in <code>index.js</code>:</p>
+<h2>Dependencies</h2>
+<ul>
+  <li><strong>Node.js</strong> (v14 or later)</li>
+  <li><code>puppeteer-extra</code></li>
+  <li><code>puppeteer-extra-plugin-stealth</code></li>
+  <li><code>fs</code> (Node.js core module)</li>
+</ul>
+
+<h2>Configuration</h2>
+<p>Update the following values in <code>index.js</code> before running:</p>
 <ul>
   <li><code>const email = 'your-email';</code></li>
   <li><code>const password = 'your-password';</code></li>
   <li><code>const videoUrl = 'https://youtube.com/...';</code></li>
 </ul>
-<p>Also make sure you have a <code>comments.txt</code> file with one comment per line.</p>
+<p>Also ensure you have a valid <code>comments.txt</code> file in the specified location, containing one comment per line.</p>
 
 <h2>Roadmap</h2>
 <ul>
-  <li>More customization options for comments and targeting</li>
-  <li>Support for rotating accounts and proxies</li>
-  <li>Headless detection improvements</li>
-  <li>Web interface to manage comments</li>
+  <li>Custom scheduling and randomized posting intervals</li>
+  <li>Proxy rotation and multiple account handling</li>
+  <li>Improved headless evasion and resilience</li>
+  <li>Interactive dashboard or web interface</li>
 </ul>
 
 <hr>
 
-<h3>Installation</h3>
+<h2>Installation</h2>
 
 <pre><code>npm install
 node index.js
 </code></pre>
 
-<h3>File Structure</h3>
+<h2>Project Structure</h2>
 <ul>
-  <li><code>index.js</code> - main bot logic</li>
-  <li><code>comments.txt</code> - one comment per line</li>
-  <li><code>package.json</code> - project metadata</li>
+  <li><code>index.js</code> – Core bot script</li>
+  <li><code>comments.txt</code> – Comment pool (one per line)</li>
+  <li><code>package.json</code> – Project metadata and dependencies</li>
 </ul>
 
-<p>More updates to come. Stay tuned!</p>
+<p><strong>More updates coming soon.</strong> Contributions and suggestions are welcome.</p>
