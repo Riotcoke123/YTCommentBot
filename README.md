@@ -5,16 +5,6 @@
 
 <hr>
 
-<h2>License</h2>
-<p>This project is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU General Public License v3.0</a>.</p>
-
-<h2>Disclaimer</h2>
-<ul>
-  <li>This tool is provided strictly for educational, testing, or personal automation purposes.</li>
-  <li>By using this bot, you agree to comply with <a href="https://www.youtube.com/t/terms" target="_blank">YouTube's Terms of Service</a>.</li>
-  <li>The author (<code>riotcoke</code>) assumes no responsibility for misuse or any resulting violations.</li>
-</ul>
-
 <h2>Dependencies</h2>
 <ul>
   <li><strong>Node.js</strong> (v14 or later)</li>
@@ -48,5 +38,18 @@ node index.js
   <li><code>comments.txt</code> – Comment pool (one per line)</li>
   <li><code>package.json</code> – Project metadata and dependencies</li>
 </ul>
+
+<hr>
+
+<h2>License</h2>
+<p>This project is licensed under the <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GNU General Public License v3.0</a>.</p>
+
+<h2>Disclaimer</h2>
+<ul>
+  <li>This tool is provided strictly for educational, testing, or personal automation purposes.</li>
+  <li>By using this bot, you agree to comply with <a href="https://www.youtube.com/t/terms" target="_blank">YouTube's Terms of Service</a>.</li>
+  <li>The author (<code>riotcoke</code>) assumes no responsibility for misuse or any resulting violations.</li>
+</ul>
+
 
 <p><strong>More updates coming soon.</strong> Contributions and suggestions are welcome.</p>
