@@ -32,13 +32,7 @@
 </ul>
 <p>Also ensure you have a valid <code>comments.txt</code> file in the specified location, containing one comment per line.</p>
 
-<h2>Roadmap</h2>
-<ul>
-  <li>Custom scheduling and randomized posting intervals</li>
-  <li>Proxy rotation and multiple account handling</li>
-  <li>Improved headless evasion and resilience</li>
-  <li>Interactive dashboard or web interface</li>
-</ul>
+
 
 <hr>
 
