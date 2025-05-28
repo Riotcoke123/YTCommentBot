@@ -6,7 +6,7 @@
 
 </head>
 <body>
-   <img src="https://github.com/user-attachments/assets/b614eaf4-1498-4127-b7a7-16047e06587c"    alt="YouTube Anti-Viewbot Detector" width="350" height="250">
+   <img src="https://github.com/user-attachments/assets/b614eaf4-1498-4127-b7a7-16047e06587c"    alt="YouTube Anti-Viewbot Detector" width="550" height="250">
   <h1>YT Comment Bot</h1>
 
   <p><strong>YT Comment Bot</strong> is an automated YouTube commenting tool designed to automate the process of posting comments on YouTube videos. Powered by <code>puppeteer-extra</code> and the <code>stealth</code> plugin, it mimics real user interactions to log in, navigate to a video, and post randomly selected comments from a provided list.</p>
